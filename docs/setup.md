@@ -225,4 +225,3 @@ source venv/bin/activate
 python src/data_extraction.py
 ```
 Upon successful execution, this will generate CSV files (e.g., patient_diagnoses.csv, patient_medications.csv, diagnosis_procedures.csv) in your data/extracted_kg_prototype/ directory.
-```

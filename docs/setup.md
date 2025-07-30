@@ -38,6 +38,18 @@ Begin by setting up your project directory and a dedicated Python environment.
 
 ### 1. Clone the MedKnowGraph repository:
 ```bash
-git clone [https://github.com/AxelRamosGarcia/MedKnowGraph.git](https://github.com/AxelRamosGarcia/MedKnowGraph.git)
+git clone https://github.com/AxelRamosGarcia/MedKnowGraph.git
 cd MedKnowGraph
 ```
+
+### 2. Create and activate a Python virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate # On Windows, use `venv\Scripts\activate`
+```
+
+### 3. Install core Python dependencies:
+```bash
+pip install psycopg2-binary pandas sqlalchemy
+```
+

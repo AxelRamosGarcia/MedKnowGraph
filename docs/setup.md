@@ -15,3 +15,19 @@ Before starting, ensure the following are installed and accessible on your syste
     * Verify: `psql --version` (e.g., `psql (PostgreSQL) 14.18`)
 * **`gunzip`:** Standard utility for decompressing `.gz` files (typically pre-installed on Linux).
 * **MIMIC-III Data (version 1.4 recommended):** The complete dataset (`.csv.gz` files) downloaded from PhysioNet. Access requires formal approval and completion of necessary training/agreements from PhysioNet.
+
+**Basic Dependency Installation (Example for Ubuntu/Debian):**
+
+```bash
+# Update package lists
+sudo apt update
+
+# Install essential development tools, Python components, and PostgreSQL
+sudo apt install -y \
+  build-essential \
+  git \
+  curl \
+  wget \
+  python3.11 python3.11-venv python3-pip \
+  postgresql postgresql-contrib \
+  libpq-dev # Required for psycopg2-binary

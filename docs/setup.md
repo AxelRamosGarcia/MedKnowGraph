@@ -31,3 +31,13 @@ sudo apt install -y \
   python3.11 python3.11-venv python3-pip \
   postgresql postgresql-contrib \
   libpq-dev # Required for psycopg2-binary
+```
+## Project Setup and Python Virtual Environment
+
+Begin by setting up your project directory and a dedicated Python environment.
+
+### 1. Clone the MedKnowGraph repository:
+```bash
+git clone [https://github.com/AxelRamosGarcia/MedKnowGraph.git](https://github.com/AxelRamosGarcia/MedKnowGraph.git)
+cd MedKnowGraph
+```
